@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  max-width: 1173px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-size: 30px;
+  color: #22262a;
+  text-transform: uppercase;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 273px;
+  height: 352px;
+  border: 1px solid #f6f7f8;
+}
+
+img {
+  width: 236px;
+  height: 153px;
+}
+.name {
+  color: #262626;
+  font-size: 14px;
+}
+.hollow {
+  width: 230px;
+  border: 1px solid #f6f7f8;
+}
+.price {
+  font-size: 16px;
+}
+.sale {
+  color: #ff4858;
+}
+.old {
+  color: #c1c8ce;
+  text-decoration: line-through;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
